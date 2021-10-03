@@ -1,3 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+
+html {
+  height: 100%;
+}
+
+body {
+  background: url("/media/background_image.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: calc(100vh - 164px);
+  color: whitesmoke;
+  font-family: 'Teko', sans-serif;
+}
+
+
+
+
 .button-slanted {
   -ms-transform: skewX(-20deg);
   -webkit-transform: skewX(-20deg);
