@@ -1,12 +1,30 @@
 {% extends "base.html" %}
 {% load static %}
 
-{% block content %}
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="row"></div>
+        </div>
+    </div>
+{% endblock %}
 
-    <div class="col col-lg-4 offset-2">
-<div class="row justify-content-md-center">
-<button class="button-slanted "> hello</button>
-</div>
-</div>
+{% block content %}
+    <div class="container h-100">
+        <div class="row h-100">
+            <div class="col-7 col-md-6 my-auto">
+                <h1 class="display-4 logo font text black">
+                    New plants are here!
+                </h1>
+                <div class="my-5">
+                    <h4>
+                        <a href="" class="button-slanted btn btn-lg rounded-0 text-uppercase py-3">Shop Now</a>
+                    </h4>
+                </div>
+            </div>
+        </div>
+    </div>
 
 {% endblock %}
+
+button-slanted
