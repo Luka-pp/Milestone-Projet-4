@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "pk": 1,
     "model": "products.product",
@@ -88,9 +88,9 @@
     "model": "products.product",
     "fields": {
       "sku": "pp5002440521",
-      "name": "Liz Claiborne Classic Sophie Secretly Slender Trouser Leg Pants - Plus",
-      "description": "Walk a little taller in our slimming straight-leg pants. flat front slim fit straight leg front fly with nylon zipper, hook and bar closure 32\" inseam polyester/rayon/spandex washable imported ",
-      "price": 59,
+      "name": "Sanseveria Moonshine",
+      "description": "Sansevieria Moonshine is a beautiful, upright snake plant with broad silvery green leaves. It enjoys bright indirect light. In low light conditions, the leaves may turn a darker green but keep its silvery sheen. Moonshine is drought-tolerant.",
+      "price": 4.99,
       "category": 4,
       "rating": 4.4,
       "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0226201317034754M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
@@ -102,10 +102,10 @@
     "model": "products.product",
     "fields": {
       "sku": "pp5002601115",
-      "name": "Rachael Ray Ceramic Olive Oil Dispenser",
-      "description": "This olive oil dispenser is designed for storing extra virgin olive oil, so it's close at hand for drizzling on food.  24-ounce capacity cruet opaque bottle and non-porous glazed interior keep oil in the dark to avoid oxidation and preserve taste playful, contemporary design Stoneware. Dishwasher-safe. Imported.",
-      "price": 36.99,
-      "category": 7,
+      "name": "Arabica coffee plant",
+      "description": "Coffea arabica, also known as the Arabian coffee, is a species of Coffea. It is believed to be the first species of coffee to be cultivated, and is currently the dominant cultivar, representing about 60% of global production. Coffee produced from the robusta bean makes up most of the remaining coffee production",
+      "price": 4.99,
+      "category": 4,
       "rating": 4.5,
       "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP0926201317071162M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
       "image": "DP0926201317071162M.jpg"
@@ -116,10 +116,10 @@
     "model": "products.product",
     "fields": {
       "sku": "pp5002690715",
-      "name": "Protech Performance Sheet Set",
-      "description": "Protech sheets are like activewear for your bed! The same cutting edge technology that is used in today's sportswear is also used in these Protech Plus sheets to give you a better night's sleep. Breathable ultra-fine microfiber wicks away moisture, keeping your body cool throughout the night while a 4-way stretch component allows you comfort in movement. This stretching ability also helps while making the bed, fitting most premium size mattresses; you won't have to struggle to get the sheets to fit all the way around.  4-way stretch component allows you comfort in movement available in a variety of solid colors microfiber knit fits mattresses up to 19\" deep Set includes: fitted sheet flat sheet 2 pillowcases Polyester/spandex. Washable. Imported. Full: 54x75 Queen: 60x80 King: 78x80 Cal. King: 72x84",
-      "price": 169.99,
-      "category": 2,
+      "name": "Macrame Hanger",
+      "description": "Hand made, 100% cotton hanger for the plant. Fixings not included. Length 20cm. Recommended pot size 10cm.",
+      "price": 9.99,
+      "category": 5,
       "rating": 4.7,
       "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP1020201517025390M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
       "image": "DP1020201517025390M.jpg"
@@ -130,10 +130,10 @@
     "model": "products.product",
     "fields": {
       "sku": "pp5002701115",
-      "name": "Reflections Set of 4 Microfiber Napkins",
-      "description": "Complete the look of your table setting with these easy-care microfiber napkins.  great for everyday use or entertaining liquid-resistant design helps protect against spills set of 4 Polyester.Each measures 19x19\". Washable. Imported.",
-      "price": 33.99,
-      "category": 7,
+      "name": "Large Macrame Hanger",
+      "description": "Hand made, 100% cotton hanger for the plant. Fixings not included. Length 40cm. Recommended pot size 20cm",
+      "price": 14.99,
+      "category": 5,
       "rating": 4.4,
       "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP0418201317011949M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
       "image": "DP0418201317011949M.jpg"
@@ -144,11 +144,11 @@
     "model": "products.product",
     "fields": {
       "sku": "pp5002761055",
-      "name": "Chef Designs Black-Trimmed Cook ShirtBig & Tall",
-      "description": "Stylish black-trim cook shirt from Chef Designs is just what you need for a confident, professional presence in the kitchen.  contrasting black stand collar black front buttons left chest pocket short hemmed sleeves squared bottom hem polyester/cotton washable imported of domestic fabric more sizes: regular, big",
-      "price": 29.99,
-      "category": 9,
-      "rating": 3,
+      "name": "Monstera Deliciosa",
+      "description": "Monstera deliciosa, the Swiss cheese plant, is a species of flowering plant native to tropical forests of southern Mexico, south to Panama. It has been introduced to many tropical areas, and has become a mildly invasive species in Hawaii, Seychelles, Ascension Island and the Society Islands. ",
+      "price": 19.99,
+      "category": 6,
+      "rating": 4.5,
       "image_url": "http://s7d2.scene7.com/is/image/JCPenney/0900631B81B0C2D9M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
       "image": "0900631B81B0C2D9M.jpg"
     }
@@ -158,10 +158,10 @@
     "model": "products.product",
     "fields": {
       "sku": "pp5002820069",
-      "name": "Nike 3-pk. Performance Crew Socks - Boys",
-      "description": "Keep him moving in comfort all day with quality Nike crew socks.  arch support reinforced toe and heel cotton/polyester/spandex washable imported",
-      "price": 19.99,
-      "category": 1,
+      "name": "Neon Pothos",
+      "description": "Neon Pothos (pronounced poe-thaws) is a common houseplant known for its hardiness and stunning leaf color. It's known for its uniquely-shaped chartreuse neon leaves. It is also a hardy houseplant requiring little care. Neon pothos is a select cultivar and member of the Araceae family.",
+      "price": 9.99,
+      "category": 6,
       "rating": 4.6,
       "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP0510201317010521M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
       "image": "DP0510201317010521M.jpg"
@@ -172,10 +172,10 @@
     "model": "products.product",
     "fields": {
       "sku": "pp5002820147",
-      "name": "Champion Jersey Tee",
-      "description": "Compete, exercise or simply relax in comfort with a classic tee from Champion, the brand that's been making quality athletic apparel since 1919.  regular fit crewneck taped neck left chest logo embroidery cotton except oxford and granite heather are cotton/polyester washable imported",
-      "price": 20,
-      "category": 9,
+      "name": "Opuntia ficus-indica",
+      "description": "Opuntia ficus-indica, the Indian fig opuntia, fig opuntia or prickly pear, is a species of cactus that has long been a domesticated crop plant grown in agricultural economies throughout arid and semiarid parts of the world. O. ficus-indica is the most widespread and most commercially important cactus.",
+      "price": 7.99,
+      "category": 7,
       "rating": 3.2,
       "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP0430201405053680M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
       "image": "DP0430201405053680M.jpg"
@@ -186,10 +186,10 @@
     "model": "products.product",
     "fields": {
       "sku": "pp5002910572",
-      "name": "Stafford 4-pk. Blended Cotton A-Shirts",
-      "description": "Stafford Big & Tall ribbed athletic t-shirts deliver the tagless comfort and breathable performance he needs.  super soft, quick-drying, durable fabric preshrunk for lasting fit reinforced durable stitching tag free cotton/polyester washable imported ",
-      "price": 26.99,
-      "category": 5,
+      "name": "Jade plant",
+      "description": "Crassula ovata, commonly known as jade plant, lucky plant, money plant or money tree, is a succulent plant with small pink or white flowers that is native to the KwaZulu-Natal and Eastern Cape provinces of South Africa, and Mozambique; it is common as a houseplant worldwide. ",
+      "price": 4.99,
+      "category": 7,
       "rating": 4.7,
       "image_url": "http://s7d2.scene7.com/is/image/JCPenney/0900631B81C9387BM.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
       "image": "0900631B81C9387BM.jpg"
@@ -200,11 +200,11 @@
     "model": "products.product",
     "fields": {
       "sku": "pp5002990740",
-      "name": "Stafford 4-pk. Heavyweight Crewneck T-ShirtsBig & Tall",
-      "description": "Soft and comfortable, two of his favorite things together in this heavyweight cotton tee from Stafford.  combed cotton heavier fabric for durability preshunk for lasting fit premium seaming reduces twisting tag free cotton washable imported",
-      "price": 48.99,
-      "category": 5,
-      "rating": 4.8,
+      "name": "Monstera ‘Albo-Variegata’",
+      "description": "This plant, Monstera ‘Albo-Variegata’ has been produced from the species M. deliciosa. The attractive patterning usually covers up to half a leaf and many other common names may be used such as “half moon”. It’s pretty cool to see a new leaf about to open up and not knowing what art work will be on it",
+      "price": 149.99,
+      "category": 9,
+      "rating": 5,
       "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP1029201317111469M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
       "image": "DP1029201317111469M.jpg"
     }
@@ -214,10 +214,10 @@
     "model": "products.product",
     "fields": {
       "sku": "pp5003050248",
-      "name": "Levi's 529 Curvy Bootcut Jeans",
-      "description": "Levis 529 curvy bootcut jeans are flattering and perfect for any timeday or night.  sits below the waist slim fit through hip and thigh bootcut leg with 18\" opening smooth bottom 8\" front rise; 15\" back rise cotton/polyester/elastane washable imported misses average: 32\" inseam ",
-      "price": 65.99,
-      "category": 6,
+      "name": "String-of-pearls",
+      "description": "Curio rowleyanus, syn. Senecio rowleyanus, is a flowering plant in the daisy family Asteraceae. It is a creeping, perennial, succulent vine native to the drier parts of southwest Africa. In its natural environment its stems trail on the ground, rooting where they touch and forming dense mats. ",
+      "price": 9.99,
+      "category": 9,
       "rating": 4.4,
       "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0918201520303373C.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
       "image": "DP0918201520303373C.jpg"
@@ -228,10 +228,10 @@
     "model": "products.product",
     "fields": {
       "sku": "pp5003070787",
-      "name": "Worthington Essential Short-Sleeve Tee - Plus",
-      "description": "Our stretchy jersey knit tee's gently pleated neckline makes a simply sweet impression.  pleated u-neck short sleeves polyester/spandex washable imported ",
-      "price": 33.99,
-      "category": 5,
+      "name": "Begonia Maculata",
+      "description": "Begonia Maculata commonly referred to as the Polka dot Begonia, is undoubtedly one of the most strikingly gorgeous species of indoor plants. This exotic plant derives its name from its unique silver spotted leaves and red undersides.",
+      "price": 19.99,
+      "category": 8,
       "rating": 4.4,
       "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP1119201520340305C.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
       "image": "DP1119201520340305C.jpg"
@@ -242,41 +242,13 @@
     "model": "products.product",
     "fields": {
       "sku": "pp5003090182",
-      "name": "Marvel Comics Avengers Hulk Pillow Buddy",
-      "description": "The Hulk may be tough, but he's actually a real softy. Get to know his softer side with this fun Hulk-shaped pillow.  adds a playful layer of texture and comfort to bed's decor measures 15x9x20\"H Polyester with polyester fill. Spot clean. Imported.",
-      "price": 59.99,
-      "category": 2,
+      "name": "Monstera adansonii",
+      "description": "Monstera adansonii, the Adanson's monstera, Swiss cheese plant, or five holes plant, is a species of flowering plant from family Araceae which is widespread across much of South America and Central America",
+      "price": 29.99,
+      "category": 8,
       "rating": 4.8,
       "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP0807201317072274M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
       "image": "DP0807201317072274M.jpg"
-    }
-  },
-  {
-    "pk": 19,
-    "model": "products.product",
-    "fields": {
-      "sku": "pp5003090186",
-      "name": "Marvel Spiderman Pillow Buddy",
-      "description": "Now your child can sling webs next to his favorite wall crawler with this Spider-Man pillow buddy. shaped like everyone's favorite web head measures 15x9x20\"H Polyester with polyester fill. Spot clean. Imported.",
-      "price": 60.99,
-      "category": 2,
-      "rating": 5,
-      "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP0807201317072924M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-      "image": "DP0807201317072924M.jpg"
-    }
-  },
-  {
-    "pk": 20,
-    "model": "products.product",
-    "fields": {
-      "sku": "pp5003161326",
-      "name": "JCPenney Home Oven Mitt",
-      "description": "Keep it cool in the kitchen with this lined oven mitt.  silicone grip protects hand from heat up to 350F contrast woven houndstooth trim fits comfortably on left or right hand handy hanging tie Sold individually. Cotton with cotton lining. Measures 7x13\". Washable. Imported. ",
-      "price": 20.99,
-      "category": 7,
-      "rating": 4.7,
-      "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0821201317103183M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP0821201317103183M.jpg"
     }
   }
 ]
