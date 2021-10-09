@@ -6,19 +6,19 @@
                 All Products
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
-                <a href="" class="dropdown-item">By Price</a>
-                <a href="" class="dropdown-item ">By Rating</a>
-                <a href="" class="dropdown-item ">By Category</a>
+                <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
+                <a href="{% url 'products' %}?sort=rating&direction=desc" class="dropdown-item ">By Rating</a>
+                <a href="{% url 'products' %}?sort=category&direction=asc" class="dropdown-item ">By Category</a>
                 <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
             </div>
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="clothing-link"
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="plants-link"
                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Plants
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
+            <div class="dropdown-menu border-0" aria-labelledby="plants-link">
                 <a href="{% url 'products' %}?category=foliage" class="dropdown-item">Foliage</a>
                 <a href="{% url 'products' %}?category=cacti_and_succulents" class="dropdown-item">Cacti &amp; Succulents</a>
                 <a href="{% url 'products' %}?category=easy_care" class="dropdown-item">Easy Care</a>
@@ -28,11 +28,11 @@
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="homeware-link"
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="pots_and_hangers-link"
                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Pots and Hangers
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
+            <div class="dropdown-menu border-0" aria-labelledby="pots_and_hangers-link">
                 <a href="{% url 'products' %}?category=terracotta_pots" class="dropdown-item">Terracotta Pots</a>
                 <a href="{% url 'products' %}?category=plastic_pots" class="dropdown-item">Plastic Posts</a>
                 <a href="{% url 'products' %}?category=hangers" class="dropdown-item">Macrame Hangers</a>
