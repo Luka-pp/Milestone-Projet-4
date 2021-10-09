@@ -19,11 +19,11 @@
                 Plants
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
-                <a href="" class="dropdown-item">Foliage</a>
-                <a href="" class="dropdown-item">Cacti &amp; Succulents</a>
-                <a href="" class="dropdown-item">Easy Care</a>
-                <a href="" class="dropdown-item">Unique Plants</a>
-                <a href="" class="dropdown-item">All Plants</a>
+                <a href="{% url 'products' %}?category=foliage" class="dropdown-item">Foliage</a>
+                <a href="{% url 'products' %}?category=cacti_and_succulents" class="dropdown-item">Cacti &amp; Succulents</a>
+                <a href="{% url 'products' %}?category=easy_care" class="dropdown-item">Easy Care</a>
+                <a href="{% url 'products' %}?category=unique_plants" class="dropdown-item">Unique Plants</a>
+                <a href="{% url 'products' %}?category=foliage,cacti_and_succulents,easy_care,unique_plants" class="dropdown-item">All Plants</a>
             </div>
         </li>
 
@@ -33,10 +33,10 @@
                 Pots and Hangers
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
-                <a href="" class="dropdown-item">Terracotta Pots</a>
-                <a href="" class="dropdown-item">Plastic Posts</a>
-                <a href="" class="dropdown-item">Macrame Hangers</a>
-                <a href="" class="dropdown-item">All Pots and hangers</a>
+                <a href="{% url 'products' %}?category=terracotta_pots" class="dropdown-item">Terracotta Pots</a>
+                <a href="{% url 'products' %}?category=plastic_pots" class="dropdown-item">Plastic Posts</a>
+                <a href="{% url 'products' %}?category=hangers" class="dropdown-item">Macrame Hangers</a>
+                <a href="{% url 'products' %}?category=terracotta_pots,plastic_pots,hangers" class="dropdown-item">All Pots and hangers</a>
             </div>
         </li>
 
@@ -46,9 +46,9 @@
                 Special Offers
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="" class="dropdown-item">New Arrivals</a>
-                <a href="" class="dropdown-item">Clearance</a>
-                <a href="" class="dropdown-item">All Specials</a>
+                <a href="{% url 'products' %}?category=new_arrivals" class="dropdown-item">New Arrivals</a>
+                <a href="{% url 'products' %}?category=clearance" class="dropdown-item">Clearance</a>
+                <a href="{% url 'products' %}?category=new_arrivals,clearance" class="dropdown-item">All Specials</a>
             </div>
         </li>
     </ul>
