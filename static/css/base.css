@@ -63,6 +63,17 @@ body {
 .bg-black {
     background: black;
 }
+.btn-outline-black:hover,
+.btn-outline-black:active,
+.btn-outline-black:focus {
+    background: black;
+    color: white !important;
+}
+.btn-outline-black{
+    background: white;
+    color: black !important;
+    border: 1px solid black;
+}
 .overlay{
     height: 100%;
     width: 100%;
