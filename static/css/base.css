@@ -163,6 +163,15 @@ a.category-badge > span.badge:hover{
     overflow-x: hidden;
     overflow-y: auto;
 }
+
+.fa{
+    text-decoration: none;
+    color: black;
+}
+.fa:hover{
+    color: #343a40;
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
