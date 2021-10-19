@@ -164,12 +164,16 @@ a.category-badge > span.badge:hover{
     overflow-y: auto;
 }
 
-.fa{
+.fab{
     text-decoration: none;
     color: black;
+    opacity: 0.7;
 }
-.fa:hover{
-    color: #343a40;
+.fab:hover{
+    text-decoration: none;
+    color: black;
+    opacity: 1;
+
 }
 
 /* -------------------------------- Media Queries */
