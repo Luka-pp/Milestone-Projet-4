@@ -93,7 +93,7 @@ a.category-badge > span.badge:hover{
     position: fixed;
     bottom: 10px;
     right: 10px;
-    z-index: 99999999;
+    z-index: 9999999999;
 }
 
 .btt-link,

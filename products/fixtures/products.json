@@ -23,7 +23,7 @@
       "price": 9.99,
       "category": 1,
       "rating": 4.2,
-      "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0113201617034987M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
+      "image_url": "https://majesticplants.s3.eu-west-1.amazonaws.com/media/IMG_1412.jpg",
       "image": "IMG_1412.jpg"
     }
   },
@@ -37,8 +37,8 @@
       "price": 2.99,
       "category": 2,
       "rating": 4.7,
-      "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP1230201417013175M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP1230201417013175M.jpg"
+      "image_url": "https://majesticplants.s3.eu-west-1.amazonaws.com/media/IMG_1417.jpg",
+      "image": "IMG_1417.jpg"
     }
   },
   {
@@ -51,8 +51,8 @@
       "price": 9.99,
       "category": 2,
       "rating": 3,
-      "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0716201503423610M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP0716201503423610M.jpg"
+      "image_url": "https://majesticplants.s3.eu-west-1.amazonaws.com/media/IMG_1414.jpg",
+      "image": "IMG_1414.jpg"
     }
   },
   {
@@ -65,8 +65,8 @@
       "price": 7.99,
       "category": 3,
       "rating": 5,
-      "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP1115201210371197C.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP1115201210371197C.jpg"
+      "image_url": "https://majesticplants.s3.eu-west-1.amazonaws.com/media/large_plastic_pot.jpg",
+      "image": "large_plastic_pot.jpg"
     }
   },
   {
@@ -79,8 +79,8 @@
       "price": 3.99,
       "category": 3,
       "rating": 4.7,
-      "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0624201520422666C.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP0624201520422666C.jpg"
+      "image_url": "https://majesticplants.s3.eu-west-1.amazonaws.com/media/small_plastic_pot.jpg",
+      "image": "small_plastic_pot.jpg"
     }
   },
   {
@@ -93,8 +93,8 @@
       "price": 4.99,
       "category": 4,
       "rating": 4.4,
-      "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0226201317034754M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP0226201317034754M.jpg"
+      "image_url": "https://majesticplants.s3.eu-west-1.amazonaws.com/media/IMG_1292.jpg",
+      "image": "IMG_1292.jpg"
     }
   },
   {
@@ -107,8 +107,8 @@
       "price": 4.99,
       "category": 4,
       "rating": 4.5,
-      "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP0926201317071162M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-      "image": "DP0926201317071162M.jpg"
+      "image_url": "https://majesticplants.s3.eu-west-1.amazonaws.com/media/IMG_1399.jpg",
+      "image": "IMG_1399.jpg"
     }
   },
   {
@@ -121,8 +121,8 @@
       "price": 9.99,
       "category": 5,
       "rating": 4.7,
-      "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP1020201517025390M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-      "image": "DP1020201517025390M.jpg"
+      "image_url": "https://majesticplants.s3.eu-west-1.amazonaws.com/media/IMG_1415.jpg",
+      "image": "IMG_1415.jpg"
     }
   },
   {
@@ -135,8 +135,8 @@
       "price": 14.99,
       "category": 5,
       "rating": 4.4,
-      "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP0418201317011949M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-      "image": "DP0418201317011949M.jpg"
+      "image_url": "https://majesticplants.s3.eu-west-1.amazonaws.com/media/IMG_1411.jpg",
+      "image": "IMG_1411.jpg"
     }
   },
   {
@@ -149,8 +149,8 @@
       "price": 19.99,
       "category": 6,
       "rating": 4.5,
-      "image_url": "http://s7d2.scene7.com/is/image/JCPenney/0900631B81B0C2D9M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-      "image": "0900631B81B0C2D9M.jpg"
+      "image_url": "https://majesticplants.s3.eu-west-1.amazonaws.com/media/IMG_1391.jpg",
+      "image": "IMG_1391.jpg"
     }
   },
   {
@@ -163,8 +163,8 @@
       "price": 9.99,
       "category": 6,
       "rating": 4.6,
-      "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP0510201317010521M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-      "image": "DP0510201317010521M.jpg"
+      "image_url": "https://majesticplants.s3.eu-west-1.amazonaws.com/media/IMG_1401.jpg",
+      "image": "IMG_1401.jpg"
     }
   },
   {
@@ -177,8 +177,8 @@
       "price": 7.99,
       "category": 7,
       "rating": 3.2,
-      "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP0430201405053680M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-      "image": "DP0430201405053680M.jpg"
+      "image_url": "https://majesticplants.s3.eu-west-1.amazonaws.com/media/IMG_1402.jpg",
+      "image": "IMG_1402.jpg"
     }
   },
   {
@@ -191,8 +191,8 @@
       "price": 4.99,
       "category": 7,
       "rating": 4.7,
-      "image_url": "http://s7d2.scene7.com/is/image/JCPenney/0900631B81C9387BM.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-      "image": "0900631B81C9387BM.jpg"
+      "image_url": "https://majesticplants.s3.eu-west-1.amazonaws.com/media/IMG_1403.jpg",
+      "image": "IMG_1403.jpg"
     }
   },
   {
@@ -205,8 +205,8 @@
       "price": 149.99,
       "category": 9,
       "rating": 5,
-      "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP1029201317111469M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP1029201317111469M.jpg"
+      "image_url": "https://majesticplants.s3.eu-west-1.amazonaws.com/media/IMG_1396.jpg",
+      "image": "IMG_1396.jpg"
     }
   },
   {
@@ -219,8 +219,8 @@
       "price": 9.99,
       "category": 9,
       "rating": 4.4,
-      "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0918201520303373C.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP0918201520303373C.jpg"
+      "image_url": "https://majesticplants.s3.eu-west-1.amazonaws.com/media/IMG_1409.jpg",
+      "image": "IMG_1409.jpg"
     }
   },
   {
@@ -233,8 +233,8 @@
       "price": 19.99,
       "category": 8,
       "rating": 4.4,
-      "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP1119201520340305C.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-      "image": "DP1119201520340305C.jpg"
+      "image_url": "https://majesticplants.s3.eu-west-1.amazonaws.com/media/IMG_1404.jpg",
+      "image": "IMG_1404.jpg"
     }
   },
   {
@@ -247,8 +247,8 @@
       "price": 29.99,
       "category": 8,
       "rating": 4.8,
-      "image_url": "http://s7d2.scene7.com/is/image/JCPenney/DP0807201317072274M.tif?wid=65&hei=65&fmt=jpg&op_usm=.4,.8,0,0&resmode=sharp2",
-      "image": "DP0807201317072274M.jpg"
+      "image_url": "https://majesticplants.s3.eu-west-1.amazonaws.com/media/IMG_1406.jpg",
+      "image": "IMG_1406.jpg"
     }
   }
 ]
