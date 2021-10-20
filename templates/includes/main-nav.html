@@ -1,7 +1,8 @@
 <div class="collapse navbar-collapse" id="main-nav">
     <ul class="navbar-nav w-auto mx-auto">
         <li class="nav-item dropdown">
-            <a href="{% url 'home' %}" class="logo-font font-weight-bold nav-link text-black mr-5 "><i class="fas fa-home"></i> Home</a>
+            <a href="{% url 'home' %}" class="logo-font font-weight-bold nav-link text-black mr-5 "><i
+                    class="fas fa-home"></i> Home</a>
         </li>
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="all-products-link"
@@ -23,10 +24,12 @@
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="plants-link">
                 <a href="{% url 'products' %}?category=foliage" class="dropdown-item">Foliage</a>
-                <a href="{% url 'products' %}?category=cacti_and_succulents" class="dropdown-item">Cacti &amp; Succulents</a>
+                <a href="{% url 'products' %}?category=cacti_and_succulents" class="dropdown-item">Cacti &amp;
+                    Succulents</a>
                 <a href="{% url 'products' %}?category=easy_care" class="dropdown-item">Easy Care</a>
                 <a href="{% url 'products' %}?category=unique_plants" class="dropdown-item">Unique Plants</a>
-                <a href="{% url 'products' %}?category=foliage,cacti_and_succulents,easy_care,unique_plants" class="dropdown-item">All Plants</a>
+                <a href="{% url 'products' %}?category=foliage,cacti_and_succulents,easy_care,unique_plants"
+                   class="dropdown-item">All Plants</a>
             </div>
         </li>
 
@@ -39,7 +42,8 @@
                 <a href="{% url 'products' %}?category=terracotta_pots" class="dropdown-item">Terracotta Pots</a>
                 <a href="{% url 'products' %}?category=plastic_pots" class="dropdown-item">Plastic Pots</a>
                 <a href="{% url 'products' %}?category=hangers" class="dropdown-item">Macrame Hangers</a>
-                <a href="{% url 'products' %}?category=terracotta_pots,plastic_pots,hangers" class="dropdown-item">All Pots and hangers</a>
+                <a href="{% url 'products' %}?category=terracotta_pots,plastic_pots,hangers" class="dropdown-item">All
+                    Pots and hangers</a>
             </div>
         </li>
 
@@ -53,6 +57,17 @@
                 <a href="{% url 'products' %}?category=clearance" class="dropdown-item">Clearance</a>
                 <a href="{% url 'products' %}?category=new_arrivals,clearance" class="dropdown-item">All Specials</a>
             </div>
+        </li>
+        <li class="list-inline-item">
+            <a href=""
+               class="logo-font font-weight-bold nav-link text-black">
+                <div class="text-center">
+                    <div></div>
+                    <p class="my-0">
+                        <i class="fas fa-blog"></i> Blog
+                    </p>
+                </div>
+            </a>
         </li>
     </ul>
 </div>
