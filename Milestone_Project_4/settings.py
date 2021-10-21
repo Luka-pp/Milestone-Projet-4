@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     'storages',
     'checkout',
     'blog',
-    'crispy_forms'
+    'crispy_forms',
+    'profiles',
 ]
 
 MIDDLEWARE = [
