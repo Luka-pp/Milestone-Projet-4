@@ -35,6 +35,13 @@ Delivery can be provided for a small fee and **Majestic Plants** are **deliverin
 ## UX 5 Planes
 
 ### Strategy Plane
+Goal of the website was to create a fully functional e-commerce application
+while showcasing the Django Frameworks. This application showcases all the amazing features
+that Django Frameworks can offer. Users have opportunity to log in, register and make their
+profiles with information that will make their checkout in future easier.
+Blog feature adds a new dimension to the application. With blog customers can interact with 
+one another. This can also serve as a good indication to the shop owner to see the demand for certain plants.
+Store owners can also get a feedback from customers which can then improve their service.
 
 ### Scope Plane
 
