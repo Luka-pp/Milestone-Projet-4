@@ -134,14 +134,24 @@ Overlay with the large spinner is created in transition between 2 pages.
 
 #### Account Pages
 
-Accounts button on the navigation gives user a option to log in or to register.
+Accounts button on the navigation gives user an option to log in or to register.
 If the user is superuser the option for product management is shown as well.
 
-Login page consists of a form in which user have to type in his/hers username and password and is then redirectred to the 
+Login page consists of a form in which user have to type in his/hers username and password and is then redirected to the
+home page.
+
+Register page consists of the form in which user needs to enter their email, username and password to create new account.
+
+Log Out page gives user an option to log out from their account.
 
 #### Blog Page
 
+text to follow
+
+
 ### Surface Plane
+
+
 
 ### Skeleton Plane
 
