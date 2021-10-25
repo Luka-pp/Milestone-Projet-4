@@ -3,7 +3,7 @@ from pathlib import Path
 import dj_database_url
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
-# import django.core.mail.backends.console
+
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 

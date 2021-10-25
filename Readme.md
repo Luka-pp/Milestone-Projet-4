@@ -146,32 +146,175 @@ Log Out page gives user an option to log out from their account.
 
 #### Blog Page
 
-text to follow
+Blog page features blog posts displayed as cards with short description and a button to open a blog detail page. 
+Each blog post card also features authors name and the date and time when it was posted.
+
+Blog details page features full version of the blog post with all of its details. This page also features 
+the comments section.
+
+Underneath the blog post comments are displayed with the time and date comment was added.
+underneath all the comments form is displayed where users can add their comments.
+
+Form consists of 3 mandatory fields and a button:
+- Name: for user to select the name under which the comment will be posted
+- Email: where user needs to add a conditional formatting
+- Body: where users write the content of their comment
+- Submit button: submits users comment
+
+Administrator of the website needs to approve each one of the comments. If the comment 
+is not approved it will not be displayed.
+
+Comments are approved in Django's admin console.
 
 
 ### Surface Plane
 
+Website has been designed with the focus on the product.
+Throughout the website black and white colours interchange and the first thing that is vibrant 
+are the products pictures. As this website is selling plants I wanted to focus fully on the 
+amazing colours and patterns mother nature is presenting us with.
 
+#### Typography
+
+The font has been acquired from **Google Fonts**, and to suit the overall looks of the website
+**Teko** font has been used in black and white color.
 
 ### Skeleton Plane
+
+This website is designed to be used on all the screen sizes.
+
+Wireframes and their evolution can be found [here](link to go here for the wireframes).
 
 ## Features
 
 ### Existing features
+- Created in HTML, CSS, Javascript, Python, Django and Bootstrap
+- Local database for development was **sqlite3**
+- Deployed website uses **PostgresSQL Database** provided by **Heroku**
+- Full CRUD functionality 
+- Log In, Log Out, Register functions implemented
+- Email user verification synchronised with **Gmail**
+- Full **Stripe** integration
+- Database querying and sorting all the available products
+- Fully functional Blog section with enabled but supervised user comments
 
 ### Features left for future implementation
+- Adding more images for the same product
+- Social Websites
+- Membership program
+- Wishlist for customers
+- Real Time Chat
 
 ## Technologies used
 
+* [HTML5](https://en.wikipedia.org/wiki/HTML) for markup
+* [CSS3](https://en.wikipedia.org/wiki/CSS) for style
+* [Python](https://www.python.org/) for backend development
+* [Django](https://www.djangoproject.com/) for frameworks
+* [PostgreSQL](https://www.postgresql.org//) as the database for the website
+* [Git](https://git-scm.com/) for version control
+* [GitHub](https://github.com/) as a remote repository
+* [Bootstrap](https://getbootstrap.com/) for main frame and styling
+* [JavaScript](https://www.javascript.com/) For functionality of some parts of website
+* [PyCharm](https://www.jetbrains.com/pycharm/) As my main editor and local repository
+* [Heroku](https://www.heroku.com/) For deployment of the website
+
 ## Resources
 
+* [pixabay](https://pixabay.com/) for images with free license
+* [Code Institute](https://codeinstitute.net/) course materials
+* [Code Institute Slack](https://codeinstitute.net/) Slack Community
+* [MDN](https://developer.mozilla.org/en-US/) general help and pointers
+* [Stackoverflow](https://stackoverflow.com/) general help and pointers
+* [Youtube](https://www.youtube.com/) general help and pointers
+* [W3schools](https://www.w3schools.com/) general help and pointers
+* [Am I Responsive](http://ami.responsivedesign.is/) for a responsive image in Read Me
+* [Soda PDF](https://www.sodapdf.com/jpg-to-pdf/) to convert images to PDF
+* [LogoMakr](https://logomakr.com/) for creation of the logo
+* [Google](https://www.google.ie/) general help
+* [TempMailo](https://tempmailo.com/) for temporary email addresses while testing
+* [DJANGOCENTRAL](https://djangocentral.com/) for help with blog application
+* [Google Fonts](https://fonts.google.com/) for the font used throughout the website
+* [Font Awesome](https://fontawesome.com/) for icons
+* [Stripe](https://stripe.com/ie) for help with payments integration
+* [AmazonWebServices-AWS](https://aws.amazon.com/) for hosting static and media files
+
+**All the plant images come from my own private collection**
+
 ## Testing
+
+Testing has been done and documented
+in [Testing.md](link here)
 
 ## Version Control
 
 ### Git and GitHub
 
+I used **[PyCharm](https://www.jetbrains.com/pycharm/)** as a local repository and IDE
+and **[GitHub](https://github.com/)** as a remote repository. The process of version control was:
+
+* First I created a new repository on GitHub
+* I have then connected my GitHub account and my PyCharm IDE
+* I have then opened that repository in PyCharm and started coding
+* In PyCharm I have created all the pages and folders
+* I was then saving my work and pushing it to GitHub repository to keep it safe
+* Process for saving, committing and pushing it to remote repository goes as follows:
+* In the main window of PyCharm click on **Git**
+* On drop down menu click on **Commit**
+* The commit interface will open on the left side and after adding the commit message click on commit in the left bottom
+  corner
+* Work is now committed to the master branch
+* To push that commit to the **GitHub** I clicked on **Commit and Push** button in the same window
+* On click on **Commit and Push** button the pop-up window will show where I needed to confirm that I want to push the
+  work to my GitHub repository
+
 ## Deployment
 
-## Database
+This project requires back-end technologies, so for the deployment [Heroku](https://www.heroku.com/) was used. 
+**Heroku**, a cloud platform where users can host their projects. This platform offers free sand paid service. For
+the purpose of this project free version was enough. **PostgreSQL** database was selected from
+free Heroku addons. For hosting of static files and media files **AWS** S3 bucket was used on a free plan.
 
+Heroku setup:
+- Creating account on **Heroku**
+- Creating new app by clicking on *New* and then *Create new app*
+- Type in the unique name on the app and choose a region closest to us for deployment
+- Provision **PostgreSQL** database from heroku add-ons
+
+Steps to be taken before deployment:
+
+- installing **dj_database_url** and **psycopg2-binary** via **pip** from PyCharm terminal
+- Connecting local database to **PostgreSQL** by changing ``DEFAULT_DATABASE`` with **database URL** from Heroku and running migrations on our project
+- importing all the fixtures by running commands **python manage.py loaddata categories** and **python manage.py loaddata products**
+- creating **superuser** by running **python manage.py createsuperuser**
+- instilling **unicorn** via pip which will act as our webserver
+- **Requirements.txt** file created using **pip freeze > requirements.txt**. This file contains all the necessary dependencies so Heroku can have them ready for the project
+- **Procfile** this file contains necessary details about the project so that heroku know what and where is he deploying and in
+      which programming language
+- temporarily disable ``collectstatic``
+- adding host name of our Heroku app to ``settings.py``
+
+Before enabling automatic deploys, Config Vars have to be set as [this]() image indicates
+**Settings**.
+When all the hidden variables done, click **Enable Automatic Deploys** and click **Deploy Branch*
+- Once app deploys the confirmation message will be shown
+
+
+## Database
+During the development **sqlite3** database was used which is installed with **Django**.
+For deployment(production), a PostgreSQL database is provided by Heroku as an add-on.
+
+Fixtures for the products are taken from the **Code Institute** course material and manually altered
+to fit this project. 
+
+Fixtures are then loaded into the database via **CLI** from the **Pycharm**.
+Using the command **python manage.py loaddata categories** to first load the categories for the products
+as they are needed for the products fixture. 
+
+Products are then loaded using command **python manage.py loaddata products**. 
+
+After running necessary **migrations** basic products and 
+categories are loaded in database.
+
+
+### Special thanks to my mentor Spencer Barriball for help and advice throughout the development!
