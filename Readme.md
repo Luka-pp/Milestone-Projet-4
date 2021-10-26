@@ -17,7 +17,7 @@ Application is designed for all screen sizes.
 
 ## Who is this application for?
 
-This application is for all the plant lovers ot there. It is designed to be user friendly and that 
+This application is for all the plant lovers ot there. It is designed to be user-friendly and that 
 anyone can go ahead and get that plant they really want. It is also designed
 for the store owner who wants to start his new business and is and is a huge fan 
 of plants!

@@ -176,6 +176,9 @@ a.category-badge > span.badge:hover{
     opacity: 1;
 
 }
+.navbar{
+    padding: 0;
+}
 
 /* -------------------------------- Media Queries */
 
@@ -209,7 +212,11 @@ a.category-badge > span.badge:hover{
     }
 }
 
-
+@media (min-width: 350px){
+    .navbar {
+        padding: 0.5rem 1rem;
+    }
+}
 
 
 .allauth-form-inner-content p {
