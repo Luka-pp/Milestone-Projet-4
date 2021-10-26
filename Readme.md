@@ -12,7 +12,7 @@ For link to the website click [Here](https://majestic-plants.herokuapp.com/)
 
 Application is designed for all screen sizes.
 
-![Am I Responsive](image to come here)
+![Am I Responsive](/Testing%20and%20Readme%20media/Images/am_i_responsive.png)
 
 
 ## Who is this application for?
