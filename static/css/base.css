@@ -185,7 +185,6 @@ a.category-badge > span.badge:hover{
     max-width: 80%;
   }
 }
-
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
     .fixed-top-desktop-only {
@@ -209,6 +208,8 @@ a.category-badge > span.badge:hover{
         height: calc(100vh - 116px);
     }
 }
+
+
 
 
 .allauth-form-inner-content p {

@@ -294,7 +294,7 @@ Steps to be taken before deployment:
 - temporarily disable ``collectstatic``
 - adding host name of our Heroku app to ``settings.py``
 
-Before enabling automatic deploys, Config Vars have to be set as [this]() image indicates
+Before enabling automatic deploys, Config Vars have to be set as [this](https://github.com/Luka-pp/Milestone-Projet-4/blob/master/Testing%20and%20Readme%20media/Images/heroku_config_vars.png) image indicates
 **Settings**.
 When all the hidden variables done, click **Enable Automatic Deploys** and click **Deploy Branch*
 - Once app deploys the confirmation message will be shown
@@ -313,8 +313,7 @@ as they are needed for the products fixture.
 
 Products are then loaded using command **python manage.py loaddata products**. 
 
-After running necessary **migrations** basic products and 
-categories are loaded in database.
+After running necessary **migrations** basic products and categories are loaded into database.
 
 
 ### Special thanks to my mentor Spencer Barriball for help and advice throughout the development!
