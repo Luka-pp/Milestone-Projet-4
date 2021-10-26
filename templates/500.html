@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% load static %}
+
+
+
+{% block content %}
+<section class="text-center container">
+    <h2 class="mt-5">500<br>Server ERROR</h2>
+    <div class="mb-5 mt-3">
+        <a class="btn btn-black rounded-0 btn-warning" href="{% url 'home' %}">
+            <span>Home</span>
+        </a>
+    </div>
+</section>
+{% endblock %}
