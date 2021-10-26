@@ -14,7 +14,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-oq*hqohg$u0#3h-ew@4ke9z%72)f7tfreb1$k3kq*@_7=(b(5k')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = 'DEVELOPMENT' in os.environ
+DEBUG = False
 
 
 ALLOWED_HOSTS = ['majestic-plants.herokuapp.com', '127.0.0.1']
