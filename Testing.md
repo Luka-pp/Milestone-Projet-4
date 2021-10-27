@@ -8,8 +8,6 @@ the nice and secure shop and to benefit from it.
 
 ![User Stories ](/Testing%20and%20Readme%20media/Images/user_stories.png)
 
-
-
 ### Fulfilment of user stories
 
 ![User Stories Fulfilment ](/Testing%20and%20Readme%20media/Images/user_stories_fulfilment.png)
@@ -29,7 +27,6 @@ Errors discovered:
 
 - Element li not allowed as child of element nav in this context. (Suppressing further errors from this subtree.)
   Still awaiting to be fixed.
-- 
 
 **CSS**
 
@@ -172,60 +169,56 @@ Mobile
 
 ![Landing page test mobile](/Testing%20and%20Readme%20media/Images/landing_page_mobile.png)
 
-Desktop   
+Desktop
 
 ![Landing page test desktop](/Testing%20and%20Readme%20media/Images/landing_page_desktop.png)
 
 2. Products Page
-  
+
 Mobile
 
 ![Products page test mobile](/Testing%20and%20Readme%20media/Images/products_page_mobile.png)
 
-Desktop   
+Desktop
 
 ![products page test desktop](/Testing%20and%20Readme%20media/Images/landing_page_mobile.png)
 
-
 3. Profile Page
-  
+
 Mobile
 
 ![Product Detail page test mobile](/Testing%20and%20Readme%20media/Images/product_detail_page_mobile.png)
 
-Desktop   
+Desktop
 
 ![Product Detail page test desktop](/Testing%20and%20Readme%20media/Images/product_detail_page_desktop.png)
 
-
 4. Checkout Page
-  
+
 Mobile
 
 ![Checkout page test mobile](/Testing%20and%20Readme%20media/Images/checkout_page_mobile.png)
 
-Desktop   
+Desktop
 
 ![Checkout page test desktop](/Testing%20and%20Readme%20media/Images/checkout_page_desktop.png)
 
-   
 5. Shopping Bag Page
-  
+
 Mobile
 
 ![Shopping Bag test mobile](/Testing%20and%20Readme%20media/Images/bag_page_mobile.png)
 
-Desktop   
+Desktop
 
 ![Shopping Bag test desktop](/Testing%20and%20Readme%20media/Images/bag_page_desktop.png)
 
-
 6. Blog Page
-  
+
 Mobile
 
 ![Blog test mobile](/Testing%20and%20Readme%20media/Images/blog_page_mobile.png)
 
-Desktop   
+Desktop
 
 ![Blog test desktop](/Testing%20and%20Readme%20media/Images/blog_page_desktop.png)
