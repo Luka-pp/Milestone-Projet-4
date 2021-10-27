@@ -5,11 +5,12 @@ from django.contrib.auth.decorators import login_required
 from django.db.models.functions import Lower
 from .forms import ProductForm
 from .models import Product, Category
+
+
 # Create your views here.
 
 
 def all_products(request):
-
     products = Product.objects.all()
     query = None
     categories = None
@@ -58,7 +59,6 @@ def all_products(request):
 
 
 def product_detail(request, product_id):
-
     product = get_object_or_404(Product, pk=product_id)
 
     context = {

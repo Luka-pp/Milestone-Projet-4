@@ -10,30 +10,30 @@
 {% endblock %}
 
 {% block content %}
-<div class="overlay"></div>
+    <div class="overlay"></div>
     <div class="row">
-            <div class="col">
-                <hr>
-                <h2 class="logo-font mb-4 mx-auto text-center">Welcome to our blog</h2>
-                <hr>
-            </div>
-    </div>
-    <div class="container">
-    <div class="row">
-        <!-- Blog Entries Column -->
-        <div class="col-md-8 mt-3 left">
-            {% for post in post_list %}
-            <div class="card mb-4">
-                <div class="card-body">
-                    <h2 class="card-title">{{ post.title }}</h2>
-                    <p class="card-text text-muted h6">{{ post.author }} | {{ post.created_on}} </p>
-                    <p class="card-text">{{post.content|slice:":200" }}</p>
-                    <a href="{% url 'post_detail' post.slug  %}" class="btn btn-black rounded-0">Read More &rarr;</a>
-                </div>
-            </div>
-            {% endfor %}
+        <div class="col">
+            <hr>
+            <h2 class="logo-font mb-4 mx-auto text-center">Welcome to our blog</h2>
+            <hr>
         </div>
     </div>
-</div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 mt-3 left">
+                {% for post in post_list %}
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h2 class="card-title">{{ post.title }}</h2>
+                            <p class="card-text text-muted h6">{{ post.author }} | {{ post.created_on }} </p>
+                            <p class="card-text">{{ post.content|slice:":200" }}</p>
+                            <a href="{% url 'post_detail' post.slug %}" class="btn btn-black rounded-0">Read More
+                                &rarr;</a>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
 
 {% endblock %}

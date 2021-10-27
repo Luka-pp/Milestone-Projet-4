@@ -17,7 +17,7 @@ Application is designed for all screen sizes.
 
 ## Who is this application for?
 
-This application is for all the plant lovers ot there. It is designed to be user-friendly and that 
+This application is for all the plant lovers out there. It is designed to be user-friendly and that 
 anyone can go ahead and get that plant they really want. It is also designed
 for the store owner who wants to start his new business and is and is a huge fan 
 of plants!
@@ -183,7 +183,7 @@ The font has been acquired from **Google Fonts**, and to suit the overall looks 
 
 This website is designed to be used on all the screen sizes.
 
-Wireframes and their evolution can be found [here](link to go here for the wireframes).
+Wireframes and their evolution can be found [here](/Testing%20and%20Readme%20media/Wireframes/wireframes.pdf).
 
 ## Features
 
@@ -244,7 +244,7 @@ Wireframes and their evolution can be found [here](link to go here for the wiref
 ## Testing
 
 Testing has been done and documented
-in [Testing.md](link here)
+in [Testing.md](/Testing.md)
 
 ## Version Control
 

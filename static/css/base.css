@@ -192,39 +192,6 @@ a.category-badge > span.badge:hover {
     padding: 0;
 }
 
-/* -------------------------------- Media Queries */
-
-/* Slightly larger container on xl screens */
-@media (min-width: 1200px) {
-    .container {
-        max-width: 80%;
-    }
-}
-
-/* fixed top navbar only on medium and up */
-@media (min-width: 992px) {
-    .fixed-top-desktop-only {
-        position: fixed;
-        top: 0;
-        right: 0;
-        left: 0;
-        z-index: 1030;
-    }
-
-    .header-container {
-        padding-top: 164px;
-    }
-}
-
-@media (max-width: 991px) {
-    .header-container {
-        padding-top: 116px;
-    }
-
-    body {
-        height: calc(100vh - 116px);
-    }
-}
 
 .allauth-form-inner-content p {
     margin-top: 1.5rem; /* mt-4 */
@@ -302,4 +269,37 @@ a.category-badge > span.badge:hover {
     background-color: #dc3545;
     border-color: #dc3545;
     border-radius: 0;
+}
+
+/* -------------------------------- Media Queries */
+
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 80%;
+    }
+}
+
+@media (min-width: 992px) {
+    .fixed-top-desktop-only {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+    }
+
+    .header-container {
+        padding-top: 164px;
+    }
+}
+
+@media (max-width: 991px) {
+    .header-container {
+        padding-top: 116px;
+    }
+
+    body {
+        height: calc(100vh - 116px);
+    }
 }
