@@ -8,11 +8,13 @@ the nice and secure shop and to benefit from it.
 
 ![User Stories ](/Testing%20and%20Readme%20media/Images/user_stories.png)
 
-Link for sorting options is [here](/Testing%20and%20Readme%20media/Images/sorting.png)
+
 
 ### Fulfilment of user stories
 
 ![User Stories Fulfilment ](/Testing%20and%20Readme%20media/Images/user_stories_fulfilment.png)
+
+Link for sorting options is [here](/Testing%20and%20Readme%20media/Images/sorting.png)
 
 ![Site Owner User Stories Fulfilment ](/Testing%20and%20Readme%20media/Images/site_owner_stories_fulfilment.png)
 
@@ -20,13 +22,14 @@ Link for sorting options is [here](/Testing%20and%20Readme%20media/Images/sortin
 
 **HTML**
 
-All the pages on the website have been put through W3C Markup Validation Service. Most of the errors are related to teh
-django templating logic and as such i do nok know yet how to fix.
+All the pages on the website have been put through W3C Markup Validation Service. Most of the errors are related to the
+Django templating logic and as such I do nok know yet how to fix.
 
 Errors discovered:
 
 - Element li not allowed as child of element nav in this context. (Suppressing further errors from this subtree.)
-  Still awaiting fixing.
+  Still awaiting to be fixed.
+- 
 
 **CSS**
 
@@ -127,6 +130,9 @@ Mobile
 7. AWS Amazon Web Services
 
     - All the static and media files are being hosted on AWS using their S3 free tier service.
+8. Sorting
+
+    - Sorting of all the products was manually tested and all the sorting works as intended
 
 ### Bugs, Errors, Issues and fixes
 
@@ -135,18 +141,91 @@ some of them:
 
 - At the beginning of the development Bootstrap did not work at all. Issue was fixed by selecting correct version of
   Bootstrap CDN.
+
 - While I was building fixtures for the database I have misspelled Macrame Hangers so the products and that specific
   category did not work. After fixing the typo everything worked as intended.
-- while freezing requirements with pip i have made another typo in the word, and I could not deploy the application on
+
+- while freezing requirements with pip I have made another typo in the word, and I could not deploy the application on
   Heroku. After fixing the spelling, application was deployed successfully.
-- While creating S3 bucket AWS i have written majestic plants for the name but in the settings.py i have entered
+
+- While creating S3 bucket AWS I have written majestic plants for the name but in the settings.py i have entered
   majestic-plants. After discovering it, I corrected the name and managed to load static and media files.
+
 - I had issues with virtual environment in PyCharm. Somewhere along the project I have somehow exited the virtual
   environment in the terminal. That broke complete application. After consultations with My mentor Spencer and few tutor
   support sessions I was able to get back on the track of my development.
+
 - At the end of the project I have set up the actual emails being sent from Gmail. After a week of code checking and
   hour of googling I have discovered I forgot to turn DEBUG off in Heroku config vars. After I removed that config vars
   emails were sent with no issues. This was tested by temp emails.
+
 - Fixed navigation overflow issue on the smallest screens (iphone 5 on dev tools in chrome) by adjusting padding on the
   navigation.
 
+### Quality by **Lighthouse**
+
+Websites performance has been checked with **Lighthouse** within Chrome developer tools and results are as follows:
+
+1. Landing Page
+
+Mobile
+
+![Landing page test mobile](/Testing%20and%20Readme%20media/Images/landing_page_mobile.png)
+
+Desktop   
+
+![Landing page test desktop](/Testing%20and%20Readme%20media/Images/landing_page_desktop.png)
+
+2. Products Page
+  
+Mobile
+
+![Products page test mobile](/Testing%20and%20Readme%20media/Images/products_page_mobile.png)
+
+Desktop   
+
+![products page test desktop](/Testing%20and%20Readme%20media/Images/landing_page_mobile.png)
+
+
+3. Profile Page
+  
+Mobile
+
+![Product Detail page test mobile](/Testing%20and%20Readme%20media/Images/product_detail_page_mobile.png)
+
+Desktop   
+
+![Product Detail page test desktop](/Testing%20and%20Readme%20media/Images/product_detail_page_desktop.png)
+
+
+4. Checkout Page
+  
+Mobile
+
+![Checkout page test mobile](/Testing%20and%20Readme%20media/Images/checkout_page_mobile.png)
+
+Desktop   
+
+![Checkout page test desktop](/Testing%20and%20Readme%20media/Images/checkout_page_desktop.png)
+
+   
+5. Shopping Bag Page
+  
+Mobile
+
+![Shopping Bag test mobile](/Testing%20and%20Readme%20media/Images/bag_page_mobile.png)
+
+Desktop   
+
+![Shopping Bag test desktop](/Testing%20and%20Readme%20media/Images/bag_page_desktop.png)
+
+
+6. Blog Page
+  
+Mobile
+
+![Blog test mobile](/Testing%20and%20Readme%20media/Images/blog_page_mobile.png)
+
+Desktop   
+
+![Blog test desktop](/Testing%20and%20Readme%20media/Images/blog_page_desktop.png)
